@@ -21,14 +21,14 @@ function SideBar() {
                 <li className="nav-item active">
                     <a className="nav-link" href="/">
                         <i className="fas fa-fw fa-tachometer-alt"></i>
-                        <span>Dashboard - DH movies</span></a>
+                        <span>Dashboard - Laguz</span></a>
                 </li>
 
                 {/* Divider */}
                 <hr className="sidebar-divider" />
 
                 {/* Heading */}
-                <div className="sidebar-heading">Actions</div>
+                <div className="sidebar-heading">Acciones</div>
 
                 {/* Nav Item - Pages */}
                 <li className="nav-item">
@@ -49,7 +49,7 @@ function SideBar() {
                 <li className="nav-item">
                     <a className="nav-link" href="/">
                         <i className="fas fa-fw fa-table"></i>
-                        <span>Tables</span></a>
+                        <span>Tablas</span></a>
                 </li>
 
                 {/* Divider */}
