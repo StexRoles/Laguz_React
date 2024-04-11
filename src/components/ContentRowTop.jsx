@@ -1,8 +1,23 @@
 import ContentRowMovies from './ContentRowMovies';
+import React, { useEffect, useState } from 'react';
 import LastMovieInDb from './LastMovieInDb';
 import GenresInDb from './GenresInDb';
 
 function ContentRowTop() {
+    const [products, setProducts] = useState(null);
+    const [users, setUsers] = useState(null);
+
+    useEffect(() => {
+        fetch('/api/product/api/products')
+            .then(response => response.json())
+            .then(data => setProducts(data));
+
+        fetch('/api/user/api/users')
+            .then(response => response.json())
+            .then(data => setUsers(data));
+    }, []);
+
+
     return (
         <>
             {/* Content Row Top */}
@@ -12,12 +27,14 @@ function ContentRowTop() {
                 </div>
 
                 {/* Content Row Movies */}
+                {products && users && (
                 <ContentRowMovies
-                    title={["Movies in Data Base", "Total awards", "Actors quantity"]}
-                    value={[21, 79, 49]}
-                    icon={["fas fa-film fa-2x text-gray-300", "fas fa-award fa-2x text-gray-300", "fas fa-user fa-2x text-gray-300"]}
-                    borderColor={["border-left-primary", "border-left-success", "border-left-warning"]}
+                    title={["Total de Productos", "Total de Usuarios"]}
+                    value={[products.count, users.count]}
+                    icon={["fas fa-film fa-2x text-gray-300", "fas fa-award fa-2x text-gray-300"]}
+                    borderColor={["border-left-primary", "border-left-success"]}
                 />
+            )}
 
 
                 {/* Content Row Last Movie in Data Base */}
