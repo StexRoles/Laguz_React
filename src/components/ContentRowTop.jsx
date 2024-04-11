@@ -1,4 +1,3 @@
-import React from 'react'
 import ContentRowMovies from './ContentRowMovies';
 import LastMovieInDb from './LastMovieInDb';
 import GenresInDb from './GenresInDb';
@@ -13,7 +12,12 @@ function ContentRowTop() {
                 </div>
 
                 {/* Content Row Movies */}
-                <ContentRowMovies />
+                <ContentRowMovies
+                    title={["Movies in Data Base", "Total awards", "Actors quantity"]}
+                    value={[21, 79, 49]}
+                    icon={["fas fa-film fa-2x text-gray-300", "fas fa-award fa-2x text-gray-300", "fas fa-user fa-2x text-gray-300"]}
+                    borderColor={["border-left-primary", "border-left-success", "border-left-warning"]}
+                />
 
 
                 {/* Content Row Last Movie in Data Base */}
