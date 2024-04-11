@@ -1,5 +1,5 @@
 import React from 'react'
-import logoDH from '../assets/img/logo-DH.png'
+import logoDH from '../assets/img/logo.png'
 
 function SideBar() {
     return (

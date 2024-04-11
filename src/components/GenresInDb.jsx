@@ -7,77 +7,42 @@ function GenresInDb() {
             <div className="col-lg-6 mb-4">
                 <div className="card shadow mb-4">
                     <div className="card-header py-3">
-                        <h5 className="m-0 font-weight-bold text-gray-800">Genres in Data Base</h5>
+                        <h5 className="m-0 font-weight-bold text-gray-800">Categorias</h5>
                     </div>
                     <div className="card-body">
                         <div className="row">
                             <div className="col-lg-6 mb-4">
                                 <div className="card bg-dark text-white shadow">
                                     <div className="card-body">
-                                        Acción
+                                        Laptops
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-6 mb-4">
                                 <div className="card bg-dark text-white shadow">
                                     <div className="card-body">
-                                        Animación
+                                        Oficina
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-6 mb-4">
                                 <div className="card bg-dark text-white shadow">
                                     <div className="card-body">
-                                        Aventura
+                                        Estudiantes
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-6 mb-4">
                                 <div className="card bg-dark text-white shadow">
                                     <div className="card-body">
-                                        Ciencia Ficción
+                                        Accesosrios
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-6 mb-4">
                                 <div className="card bg-dark text-white shadow">
                                     <div className="card-body">
-                                        Comedia
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 mb-4">
-                                <div className="card bg-dark text-white shadow">
-                                    <div className="card-body">
-                                        Documental
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 mb-4">
-                                <div className="card bg-dark text-white shadow">
-                                    <div className="card-body">
-                                        Drama
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 mb-4">
-                                <div className="card bg-dark text-white shadow">
-                                    <div className="card-body">
-                                        Fantasia
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 mb-4">
-                                <div className="card bg-dark text-white shadow">
-                                    <div className="card-body">
-                                        Infantiles
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 mb-4">
-                                <div className="card bg-dark text-white shadow">
-                                    <div className="card-body">
-                                        Musical
+                                        Gamer
                                     </div>
                                 </div>
                             </div>
